@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "linspectacles-scheduler-inspector",
+  "name": "Scheduler Inspector",
+  "version": "0.0.8",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/scheduler-inspector",
+  "order": 41,
+  "entrypoint": "scheduler_inspector/applet.py",
+  "factory": "create_applet",
+  "standalone": "standalone.py",
+  "description": "Read-only Linux CPU scheduler inspector for per-thread scheduling policy and affinity, scheduler accounting, per-CPU schedstat state, scheduler domains, and sched_ext/global scheduler context.",
+  "platforms": [
+    "linux"
+  ],
+  "read_only": true
+}
